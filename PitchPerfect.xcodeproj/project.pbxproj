@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		931827AF2329324700B92798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931827AE2329324700B92798 /* AppDelegate.swift */; };
 		931827B12329324700B92798 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931827B02329324700B92798 /* RecordSoundsViewController.swift */; };
-		931827B42329324700B92798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931827B22329324700B92798 /* Main.storyboard */; };
+		931827B42329324700B92798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931827B22329324700B92798 /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		931827B62329324800B92798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931827B52329324800B92798 /* Assets.xcassets */; };
 		931827B92329324800B92798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931827B72329324800B92798 /* LaunchScreen.storyboard */; };
 		931827C1232BD12800B92798 /* playSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931827C0232BD12800B92798 /* playSoundsViewController.swift */; };
@@ -96,6 +96,10 @@
 		931827A32329324700B92798 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					0,
+					1,
+				);
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = saad;
@@ -291,7 +295,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7W44F6M2Q;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +314,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7W44F6M2Q;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
